@@ -36,3 +36,41 @@ button {
   font-size: 16px;
   line-height: 125%;
 }
+
+form {
+  display: flex;
+}
+
+.days {
+  display: flex;
+  gap: 48px;
+  margin-left: 32px;
+}
+
+.day {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.day div {
+  margin-bottom: 8px;
+}
+
+input {
+  appearance: none;
+  -webkit-appearance: none;
+
+  width: 64px;
+  height: 64px;
+
+  border: 2px solid #27272a;
+  border-radius: 8px;
+
+  background: #18181b;
+}
+
+input:checked {
+  border: 2px solid #a78bfa;
+  background: #8b5cf6;
+}
